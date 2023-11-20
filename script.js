@@ -1,4 +1,4 @@
-//importing variable
-var data = require("./script2");
+//using npm
+var oneLinerJoke = require('one-liner-joke');
 
-console.log(data);
+console.log(oneLinerJoke.getRandomJoke());
